@@ -1,0 +1,18 @@
+.blog{
+  background-color: darken(#14213d, 13%);
+  padding-bottom: 5rem;
+  //margin-top: 4rem;
+  clip-path: polygon(100% 0, 100% 90%, 50% 100%, 50% 100%, 0 90%, 0 0);
+
+}
+
+.blog-car-text {
+  color: lighten(#000, 6%) !important;
+}
+
+.blog-card-btn {
+  color: $color-secondary !important;
+  letter-spacing: 2px;
+  font-size: 1.1rem;
+  padding: .3rem 2rem;
+}

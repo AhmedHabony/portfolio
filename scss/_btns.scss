@@ -1,0 +1,9 @@
+.btn-outline-info {
+  letter-spacing: 2px;
+  font-size: 1.1rem;
+  transition: all .7s ease-in-out;
+  &:hover {
+    color: darken(#fff, 5%) !important;
+    background-color: #1d3557;
+  }
+}

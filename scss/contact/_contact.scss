@@ -1,0 +1,32 @@
+.contact {
+  margin-top: -2rem !important;
+  background-color: darken(#14213d, 18%);
+
+  &__head  {
+    color: darken(#fff, 15%);
+  }
+  &__text {
+    color: $color-secondary;
+  }
+  &__input{
+    border: 1px solid lighten($color-primary, 3%) !important;
+  }
+  &__send{
+    transition: all .9s ease-in-out;
+    &:hover > i{
+      padding-left: .5rem;
+      //color: #dc3545;
+    }
+  }
+  //&__text
+}
+.sections-name__contact{
+  margin-bottom: 6rem !important;
+  margin-top: 5rem !important;
+}
+
+.footer {
+  width: 100%;
+  color: darken(#fff, 20%);
+  background-color: darken($color-primary, 5%);
+}

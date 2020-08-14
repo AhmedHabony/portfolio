@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+
+}
+
+//html{
+//  width: 100%;
+//}
+
+html{
+  width: 100%;
+}
+body {
+  display: table;
+  height: 100%;
+  //width: 100%;
+  background-color: darken(#14213d, 9%);
+  //color: #000;
+  line-height: 1.6;
+  position: relative;
+  font-family: sans-serif;
+  //overflow: hidden;
+}
+header {
+  //max-height: 100vh;
+  min-height: 100vh;
+  //background-color: #a64fa6;
+
+}
+
+.home-container{
+  height: 100vh !important;
+  width: 100%;
+
+
+}
+.row {
+//  height: 100vh !important;
+////  padding: 0;
+  max-width: 100% !important;
+}
+
+
+//Selections
+
+
+
+
+span.text-1::-moz-selection {
+  color: red;
+}
+
+span.text-1::selection {
+  color: red;
+}
+
+span.text-2::-moz-selection {
+  color: #f7aaaa;
+}
+
+span.text-2::selection {
+  color: #f7aaaa;
+}
+
+span.text-3::-moz-selection {
+  color: #4fe4ec;
+}
+
+span.text-3::selection {
+  color: #4fe4ec;
+}
+
+span.text-4::-moz-selection {
+  color: #a64fa6;
+}
+
+span.text-4::selection {
+  color: #a64fa6;
+}
+
+span.text-5::-moz-selection {
+  color: #4a86e8;
+}
+
+span.text-5::selection {
+  color: #4a86e8;
+}
+
+span.text-6::-moz-selection {
+  color: #009688;
+}
+
+span.text-6::selection {
+  color: #009688;
+}
+span::-moz-selection{
+  background: #14213d;
+}
+span::selection{
+  background: #14213d;
+}
+
+section{
+  padding-top: 5rem !important;
+  max-width: 100vw !important;
+}

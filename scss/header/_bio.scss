@@ -1,0 +1,65 @@
+h3.display-3 {
+  //font-family: "Rowdies", cursive;
+  //font-family: "El Messiri", sans-serif;
+  font-family: 'Fugaz One', cursive;
+
+  color: #dc3545;
+  user-select: none;
+
+
+}
+.short-bio {
+  user-select: none;
+  color: darken(#fff, 5%);
+  font-family: "Baloo Tamma 2", cursive;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+
+
+  display:inline;
+  //overflow: hidden;
+  position: relative;
+  &-specials {
+    color: #dc3545 ;
+    display: inline-block;
+    letter-spacing: 5px;
+    transform: rotateZ(-20deg);
+    transition: all .9s linear;
+
+    &:hover {
+      transform: rotateZ(0deg);
+    }
+
+    &-d {
+      color: #dc3545 ;
+      display: inline-block;
+      letter-spacing: 5px;
+      transform: rotateZ(20deg);
+      transition: all .9s ease-in-out;
+
+      &:hover {
+        transform: rotateZ(0deg);
+      }
+
+    }
+  }
+}
+.web-developer {
+  transition: all .9s ease-in-out;
+
+}
+.effect-others {
+  transition: all .9s ease-in-out;
+  //display:inline;
+  //overflow: hidden;
+  position: relative;
+  &:hover ~ .web-developer #web-d{
+    color: #dc3545;
+    transform: rotateZ(0deg);
+  }
+   &:hover ~ .web-developer{
+    color: #dc3545;
+     //display: inline-block;
+   }
+
+}

@@ -1,0 +1,138 @@
+.about {
+  //padding-top: 5rem !important;
+  //max-width: 100vw !important;
+  padding-bottom: 7rem;
+  //clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
+  position: relative !important;
+  background-color: darken(#14213d, 11%);
+
+
+  &__container{
+    margin-top: 7rem !important;
+  }
+
+
+  &-features {
+    &-head {
+      color: darken($color-secondary, 4%);
+      font-family: 'Lobster', cursive;
+
+      &-second {
+        font-size: 1.7rem;
+        letter-spacing: 1.5px;
+      }
+    }
+
+    &-all {
+      li {
+        color: darken($color-secondary, 7%) !important;
+        font-family: 'Baloo Tamma 2', cursive;
+
+      }
+
+      &-dark {
+        color: darken(#6c757d, 0) !important;
+      }
+
+      //color: darken(#fff, 12%)
+
+    }
+
+    &-text {
+      color: darken(#fff, 7%) !important;
+      font-size: 1.5rem;
+      letter-spacing: 1px;
+      font-family: 'Baloo Tamma 2', cursive;
+    }
+
+
+  }
+
+
+}
+
+.frontend {
+  background-color: darken($color-primary, 7%);
+
+  &-container{
+    border-right:  1px solid $color-secondary;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+  }
+
+}
+
+
+li.list-group-item.about-features-all-dark.list-group-item-info {
+  color: darken(#6c757d, 5%) !important;
+}
+.tools{
+  background-color: darken($color-primary, 4%);
+
+  //margin-top: -3rem !important;
+  //padding-bottom: -4rem !important;
+  //padding-top: -3rem !important;
+  //min-height: 100%;
+  height: 593px;
+  border-right:  1px solid $color-secondary;
+
+  span{
+    i{
+      color: #dc3545;
+      //width: 2rem;
+      //height: 2rem;
+    }
+
+  }
+}
+.backend{
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+}
+
+
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+//========================================== */
+//
+//.card-images {
+//  height: 7rem;
+//
+//}
+
+.sections-name {
+  position: relative;
+  h2{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: darken(#fff, 15%);
+  }
+  span{
+    position: absolute;
+    transform: translateX(-50%);
+    //left: 50%;
+    top: 80px;
+    margin-left: 5px;
+    min-height: .2rem;
+    min-width: 10rem;
+    border-radius: 30px;
+    background-color: darken(#fff, 40%);
+
+  }
+}
+

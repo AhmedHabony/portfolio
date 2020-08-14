@@ -1,0 +1,42 @@
+@import "../variables";
+
+nav {
+  &.navbar.navbar-props {
+
+    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-bottom: 2px solid #17a2b8 !important;
+  }
+
+}
+.navbar-collapse ul.navbar-nav li.nav-item a.nav-link{
+  color: darken($color-secondary, 8%) !important;
+  letter-spacing: 2px;
+  font-size: 1.1em;
+  transition: all .5s ease-in-out;
+  &:hover{
+    color: $color-third !important;
+  }
+
+}
+.navbar-collapse ul.navbar-nav li.nav-item.active a.nav-link{
+  color: lighten($color-secondary, 10%) !important;
+
+}
+.opacity-bg {
+  opacity: 0.1;
+}
+.bg-custom{
+  background-color: darken($color-primary, 10%) !important;
+  //transform: skewY(-180deg)
+}
+.spaceing-links {
+  margin-left: 6rem !important;
+}
+
+.bg-customBackground {
+  background-color: darken($color-primary, 7%) !important;
+}
+
+.navbar__container {
+  min-height: 63px !important;
+}

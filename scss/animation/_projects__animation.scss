@@ -1,0 +1,89 @@
+@keyframes hideProjects {
+  0%{
+    transform: translateY(-100px);
+    opacity: .6;
+  }
+  50%{
+    transform: translateY(-150px);
+    opacity: .4;
+  }
+  100%{
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+}
+@keyframes showProjects {
+  0%{
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  50%{
+    transform: translateY(-150px);
+    opacity: .6;
+  }
+  100%{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes moveProjectBtn {
+
+  0%{
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  50%{
+    transform: translateY(-100px);
+    opacity: .5;
+  }
+  100%{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes moveProjectText {
+
+  0%{
+    transform: translateY(200px);
+    opacity: 0;
+  }
+  50%{
+    transform: translateY(100px);
+    opacity: .5;
+  }
+  100%{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes projectMouseBtnLeave {
+  0%{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  50%{
+    transform: translateY(-100px);
+    opacity: .5;
+  }
+  100%{
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+}
+@keyframes projectMouseTextLeave {
+  0%{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  50%{
+    transform: translateY(100px);
+    opacity: .5;
+  }
+  100%{
+    transform: translateY(200px);
+    opacity: 0;
+  }
+}

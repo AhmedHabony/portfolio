@@ -1,0 +1,114 @@
+.projects {
+  //background-color: #a64fa6;
+  position: relative;
+  padding-bottom: 4rem;
+  background-color: darken(#14213d, 12%);
+
+}
+.sections-name {
+  span{
+    top: 115px;
+  }
+}
+
+.project-control {
+  margin-top: 4rem;
+
+}
+.project{
+  //position: absolute;
+  position: relative;
+
+  &:hover > .project__extensions button{
+    animation: moveProjectBtn 1.5s;
+    opacity: 1;
+
+  }
+ &:hover > .project__extensions p{
+    animation: moveProjectText 1.5s;
+   opacity: 1;
+
+
+ }
+ &:hover > img{
+    opacity: .1;
+
+  }
+
+  img{
+    cursor: pointer;
+    opacity: .8;
+    height: 19rem;
+    width: 100%;
+    transition: all 1.5s ease-in-out;
+
+    &:hover{
+      opacity: .1;
+
+    }
+    //&:hover{
+    //  opacity: .5;
+    //}
+  }
+  &-explore{
+    cursor: pointer;
+    transition: all 2s ease-in-out;
+    padding: 2px 1rem;
+    border: 1px solid #fff;
+    position: absolute;
+    color: #fff;
+    background-color: darken(#fff, 30%);
+    bottom: 0;
+    right: 0;
+
+    &-js{
+      //background-color: darken(#ffc107, 10%);
+    }
+  }
+}
+.hide_projects-anime{
+  animation: hideProjects 2s;
+}
+.show_projects-anime{
+  animation: showProjects 2s;
+}
+
+
+.project__extensions {
+  p{
+    position: absolute;
+
+    //color: #fff;
+    top: 40%;
+    left: 32%;
+    color: $color-third;
+    font-weight: 600;
+    opacity: 0;
+
+
+  }
+  button{
+    letter-spacing: 2px;
+    font-size: 1.1rem;
+    position: absolute;
+    transition: all 1s ease-in-out;
+    color: #fff;
+    bottom: 25%;
+    left: 30%;
+    opacity: 0;
+  }
+ }
+
+.animeOnLeave .project__extensions p{
+  animation: projectMouseTextLeave 1.5s;
+}
+.animeOnLeave .project__extensions button{
+  animation: projectMouseBtnLeave 1.5s;
+}
+//.javascript-projects .project button{
+//  background-color: darken(#ffc107, 10%);
+//}
+.sections-name__project {
+  margin-bottom: 8rem !important;
+  margin-top: 5rem !important;
+}

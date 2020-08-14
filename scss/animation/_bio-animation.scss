@@ -1,0 +1,36 @@
+@keyframes circleLoop {
+  0%{
+    transform: rotateZ(10deg);
+  }
+  10%{
+    transform: rotateZ(30deg);
+  }
+  20%{
+    transform: rotateZ(70deg);
+  }
+  30%{
+    transform: rotateZ(110deg);
+  }
+  40%{
+    transform: rotateZ(150deg);
+  }
+  50%{
+    transform: rotateZ(190deg);
+  }
+  60%{
+    transform: rotateZ(230deg);
+  }
+  70%{
+    transform: rotateZ(270deg);
+  }
+  80%{
+    transform: rotateZ(310deg);
+  }
+  90%{
+    transform: rotateZ(350deg);
+  }
+  100%{
+    transform: rotateZ(360deg);
+  }
+
+}
