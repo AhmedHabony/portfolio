@@ -18,7 +18,7 @@ body {
 }
 
 header {
-  min-height: 100vh;
+  max-height: 100vh;
 }
 
 .home-container {
@@ -79,10 +79,6 @@ span.text-6::selection {
 }
 
 span::-moz-selection {
-  background: #14213d;
-}
-
-span::selection {
   background: #14213d;
 }
 
@@ -206,6 +202,7 @@ section {
   text-align: center;
   font-family: "Akronim", cursive;
   font-size: 14rem;
+  z-index: 1000;
 }
 
 .char {
@@ -373,6 +370,14 @@ nav.navbar.navbar-props {
 @media (max-width: 500px) {
   .text {
     font-size: 7rem !important;
+  }
+
+  .short-bio {
+    font-size: 1.4rem !important;
+  }
+
+  .bigname__container {
+    max-height: 5rem;
   }
 }
 @media (min-width: 767px) {

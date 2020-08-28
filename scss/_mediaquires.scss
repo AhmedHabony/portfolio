@@ -43,6 +43,12 @@
   .text{
     font-size: 7rem !important;
   }
+  .short-bio {
+    font-size: 1.4rem !important;
+  }
+  .bigname__container{
+    max-height: 5rem;
+  }
 }
 @media (min-width: 767px) {
   .row{
