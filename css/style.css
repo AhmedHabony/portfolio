@@ -82,6 +82,10 @@ span::-moz-selection {
   background: #14213d;
 }
 
+span::selection {
+  background: #14213d;
+}
+
 section {
   padding-top: 5rem !important;
   max-width: 100vw !important;
@@ -368,6 +372,18 @@ nav.navbar.navbar-props {
   }
 }
 @media (max-width: 500px) {
+  .sections-name {
+    font-size: 4rem !important;
+  }
+
+  .row {
+    max-width: 100vw !important;
+  }
+
+  body {
+    max-width: 100vw !important;
+  }
+
   .text {
     font-size: 7rem !important;
   }

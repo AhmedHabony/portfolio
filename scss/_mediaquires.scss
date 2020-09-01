@@ -40,6 +40,16 @@
   }
 }
 @media (max-width: 500px) {
+  .sections-name {
+    font-size: 4rem !important;
+  }
+  .row{
+    max-width: 100vw !important;
+  }
+  body {
+    max-width: 100vw !important;
+  }
+
   .text{
     font-size: 7rem !important;
   }
